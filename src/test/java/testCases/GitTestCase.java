@@ -34,7 +34,7 @@ public class GitTestCase {
 		//Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/span")).click();
 		
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input"))).sendKeys("sdfsdfsdf");
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input"))).sendKeys("sdfsdfsdf");
 		//driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys("sdfsdfd");
 		
 		

@@ -28,7 +28,8 @@ public class GitTestCase {
 		driver.findElement(By.id("identifierId")).sendKeys("trainer@way2automation.com");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/span")).click();
-		//driver.findElement(By.id("")).sendKeys("sdfsdfd");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys("sdfsdfd");
 		
 		
 	}
